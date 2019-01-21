@@ -1,0 +1,461 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: ltr
+}
+.herosection{
+    background-color: #87509C;
+    width: 100%;
+    min-height: 50px;
+    padding-top: 60px;
+    box-sizing: border-box
+}
+ .container{
+    width: 1046px;
+    margin: 0px auto;
+    height: 100%
+}
+.herosection .container .logo{
+    float: left;
+    width: 50%
+}
+.herosection .container .logo img{
+    width: 117px;
+    height: 37px
+}
+.herosection .container .menu{
+    float: left;
+    width: 50%;
+   
+}
+.herosection .container .menu ul{
+    text-align: left
+}
+.herosection .container .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 16px
+}
+.herosection .container .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.herosection .container .menu ul li a:hover{
+    text-decoration: underline;
+    
+}
+.clear{
+    clear: both
+}
+.herosection .container h1{
+    text-align: center;
+    width: 82%;
+    margin: 50px auto 20px auto;
+    color: #fff;
+    font-size: 40.16px;
+    margin-bottom: 0px;
+    line-height: 45px;
+} 
+.herosection .container h1:last-of-type{
+    width: 83%;
+    margin-top: 0px
+}
+.herosection .container .worklink{
+   width: 100%;
+   margin: 60px auto 140px;
+    text-align: center;
+    
+}
+.herosection .container .worklink a{
+    padding: 20px 60px;
+    background-color: #EA7C4B;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow:  0px -8px 1px #C76940 inset;
+    
+    
+
+}
+.services{
+    background-color: #17C2A4;
+    width: 100%;
+    min-height: 50px;
+    padding-top: 120px;
+    box-sizing: border-box
+}
+.services h2{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 50px;
+    
+}
+.services hr{
+    width: 7%;
+    margin: 10px auto;
+    border: 2px solid #14A58C;
+    
+}
+.services p{
+    color: #fff;
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 15px auto 85px auto;
+    box-sizing: border-box;
+    font-family: Myriad Pro
+}
+.services .brand{
+    float: left;
+    width: 25%;
+    text-align: center
+}
+.services .brand img.branding{
+    width: 120px;
+    height: 124px
+}
+.services .brand h3{
+    color: #fff;
+    font-size: 24px;
+    margin-top: 64px;
+    margin-bottom: 30px
+}
+.services .brand p{
+    width: 72% ;
+    font-size: 16px;
+    margin-bottom: 130px
+}
+.services .brand img.design{
+    width: 90px;
+    height: 131px
+}
+.services .brand img.development{
+    width: 159px;
+    height: 126px
+}
+.services .brand img.rocket{
+    width: 95px;
+    height: 134px
+}
+
+.OurTeam{
+    background-color: #E7F1F8;
+    width: 100%;
+    min-height: auto;
+    padding: 115px 0px 50px 0px;
+    box-sizing: border-box;
+}
+.OurTeam h2{
+    text-align: center;
+    font-size: 42px;
+    color: #3c4761;
+    letter-spacing: 3px;
+    
+}
+.OurTeam hr{
+    width: 7%;
+    margin: 0px auto;
+    border: 2px solid #c8d9e5
+}
+.OurTeam p{
+    color: #3c4761;
+    text-align: center;
+    font-size: 18px;
+    margin: 53px auto 85px auto;
+    box-sizing: border-box
+}
+.OurTeam .team{
+    float: left;
+    width: 25%;
+    text-align: center
+}
+.OurTeam .team .anneimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+.OurTeam .team h4{
+    color: #27283d;
+    font-size: 24px;
+    margin: 40px auto 0px auto
+}
+.OurTeam .team span{
+    color: #30bae7;
+    
+}
+.OurTeam .team p{
+    margin: 30px auto;
+    width: 90%
+}
+.OurTeam .team a{
+    width: 30px;
+    height: 30px;
+    background-color: #BDD1DF;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    line-height: 30px;
+    margin-right: 14px;
+    margin-bottom: 125px
+}
+/*start portfolio section*/
+.portfolio{
+    background-color: #FFDD99;
+    width: 100%;
+    min-height: auto;
+    padding: 115px 0px 0px 0px;
+    box-sizing: border-box
+}
+.portfolio h2{
+    text-align: center;
+    font-size: 42px;
+    color: #393939;
+    letter-spacing: 3px;
+    
+}
+.portfolio hr{
+    width: 7%;
+    margin: 0px auto;
+    border: 2px solid #E5C37F
+}
+.portfolio p{
+    color: #393939;
+    text-align: center;
+    font-size: 18px;
+    margin: 15px auto 80px auto;
+    box-sizing: border-box;
+    width: 50%
+}
+.portfolio .links {
+    text-align: center
+}
+.portfolio .links a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:#393939;
+    background-color: #EBC985;
+    padding: 5px 20px ;
+    border-radius: 5px
+}
+.portfolio .container .row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 65px
+}
+.portfolio .container .row .portimg{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 80px
+}
+.portfolio .container .row .portimg img{
+    width: 100%
+}
+.portfolio .container .portimg figcaption{
+    font-size: 18px;
+    color: #393939;
+    margin-top: 10px
+}
+.portfolio .container .loadlink{
+    margin-top: 50px;
+    text-align: center;
+   margin-bottom: 110px
+}
+.portfolio .container .loadlink a{
+    background-color: #17C2A4;
+    padding: 20px 80px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 6px #14a58c;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: uppercase
+}
+/*start about us section*/
+.aboutus{
+    background-color: #D74680;
+    width: 100%;
+    min-height: auto;
+    padding: 115px 0px 0px 0px;
+    box-sizing: border-box
+}
+.aboutus h2{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    letter-spacing: 3px
+}
+.aboutus hr{
+    width: 7%;
+    margin: 0px auto;
+    border: 2px solid #B73C6D
+}
+.aboutus p{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 15px auto 70px auto;
+    box-sizing: border-box;
+    
+}
+.aboutus .row{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.aboutus .row .opinion{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    
+}
+.aboutus .opinion img{
+    width: 100px;
+    height: 96px;
+    float: left;
+    margin-right: 48px;
+    border-radius: 50%;
+    
+}
+.aboutus .opinion .quote{
+    float: left;
+    width: 61%
+
+}
+.aboutus .opinion .quote p{
+    margin: 0px;
+    text-align: left;
+    font-size: 21px;
+    font-style: italic
+}
+.aboutus .opinion .quote h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 18px 0px 0px
+}
+
+.aboutus .opinion .quote span{
+    color: #ffdd99;
+    font-weight: 400;
+    margin-top: 0
+}
+/*start footer section*/
+.footer{
+    background-color: #3C5499;
+    width: 100%;
+    min-height: auto;
+    padding-top: 115px ;
+    box-sizing: border-box
+}
+.footer h2{
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    letter-spacing: 3px
+}
+.footer hr{
+    width: 7%;
+    margin: 0px auto;
+    border: 2px solid #273A71
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 15px auto 78px auto;
+    box-sizing: border-box;
+    
+}
+.footer .container form{
+    text-align: center;
+    width: 860px;
+    margin: 0px auto
+}
+.footer .container form input{
+    width: 414px;
+    padding-left: 10px;
+    height: 50px;
+    border: none;
+    background-color: #273A71;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 28px;
+    box-sizing: border-box
+}
+.footer .container form input.email{
+    margin-right: 0px
+}
+.footer .container form textarea{
+    border: none;
+    background-color: #273A71;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 100%;
+    height: 197px;
+    text-align: left;
+    box-sizing: border-box
+}
+.footer .container form input:last-of-type{
+    background-color: #2EB8E6;
+    box-shadow: 0 6px #289DC4;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 28px 80px;
+    width: auto;
+    display: block;
+   margin: 60px auto 112px
+}
+.footer  .socials{
+    width: 100%;
+    margin: 0 auto;
+    height: 163px;
+    background-color: #344B8E
+}
+.footer  .socials .link {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px
+    
+}
+.footer  .socials .link a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: all 0.5s ease-in-out
+}
+
+.footer  .socials .link a:hover{
+    color: #30bae7
+}
+.footer  .socials p{
+    color: #fff;
+    text-align: center;
+    margin: 20px auto 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+.footer  .socials p a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s ease-in-out
+}
+.footer  .socials p a:hover{
+    text-decoration: underline
+}
